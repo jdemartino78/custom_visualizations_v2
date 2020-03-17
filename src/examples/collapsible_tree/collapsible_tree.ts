@@ -95,7 +95,7 @@ const vis: CollapsibleTreeVisualization = {
       children: (config && config.color_with_children) || this.options.color_with_children.default,
       empty: (config && config.color_empty) || this.options.color_empty.default
     }
-    const textSize = 10
+    const textSize = 14
     const nodeRadius = 4
     const duration = 750
     const margin = { top: 10, right: 10, bottom: 10, left: 10 }
